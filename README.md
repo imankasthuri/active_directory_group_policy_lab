@@ -17,5 +17,5 @@ We configure a static IP address on a server because servers are meant to be rel
 - Default Gateway - `192.168.0.1`
 - Preferred DNS Server - `8.8.8.8`
 
-![vmware_BK73WbWfzi](https://github.com/user-attachments/assets/d819465e-fffc-42a0-842d-a5d33fb84bea)
+![vmware_5iMUEUrHP9](https://github.com/user-attachments/assets/dfd4b033-44a0-4641-8b50-98bb84c9712a)
 
