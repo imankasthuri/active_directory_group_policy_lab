@@ -1,6 +1,6 @@
 # active_directory_group_policy_lab
 
-## Installing Windows Server
+## Installing Windows Server 2022
 
 I installed Windows Server 2022 on a VMware virtual machine and selected the Windows Server 2022 Datacenter edition during installation.
 
