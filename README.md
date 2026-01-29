@@ -15,7 +15,8 @@ We configure a static IP address on a server because servers are meant to be rel
 - IP - `192.168.0.10`
 - Subnet Mask - `255.255.255.0`
 - Default Gateway - `192.168.0.1`
-- Preferred DNS Server - `8.8.8.8`
+- Prefered DNS Server - `127.0.0.1`
+- Alternate DNS Server - `8.8.8.8`
 
 <img width="1022" height="774" alt="image" src="https://github.com/user-attachments/assets/7d927509-d817-4871-b9c3-608bda05bacf" />
 
