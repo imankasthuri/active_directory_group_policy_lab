@@ -1,4 +1,4 @@
-# active_directory_group_policy_lab
+# Active Directory Group Policy Lab
 
 ## Installing Windows Server 2022
 
