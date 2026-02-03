@@ -20,3 +20,13 @@ We configure a static IP address on a server because servers are meant to be rel
 
 <img width="1022" height="774" alt="image" src="https://github.com/user-attachments/assets/7d927509-d817-4871-b9c3-608bda05bacf" />
 
+## Adding the Active Directory Domain Services
+
+I installed Active Directory Domain Services to centrally manage users, computers, and security within a network, which allows the server to function as a Domain Controller.
+
+![vmware_YywYqIFQhG](https://github.com/user-attachments/assets/49102d6a-32d8-430d-bf06-96bd9aae9c80)
+
+
+
+
+
