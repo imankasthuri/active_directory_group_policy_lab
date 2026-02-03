@@ -26,6 +26,15 @@ I installed Active Directory Domain Services to centrally manage users, computer
 
 ![vmware_YywYqIFQhG](https://github.com/user-attachments/assets/49102d6a-32d8-430d-bf06-96bd9aae9c80)
 
+## Installing Windows 10
+
+I installed Windows 10 to act as a domain client, allowing me to test Active Directory functionality such as logging in with domain user accounts, resetting passwords, and verifying that Group Policy settings are applied correctly.
+
+![vmware_6RK8QNCWUB](https://github.com/user-attachments/assets/cd69ddcb-f389-4bbe-be30-bef4a2e0051d)
+
+
+
+
 
 
 
