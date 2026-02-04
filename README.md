@@ -70,6 +70,21 @@ In a real network, there can be hundreds or thousands of objects, making it very
 
 <img width="1282" height="799" alt="image" src="https://github.com/user-attachments/assets/b02b6b9e-feb8-480f-898d-e5e7d61c1f25" />
 
+## Resetting User Passwords in Active Directory Users and Computers
+
+Usually, we reset passwords for a few common reasons. Most of the time, a user has forgotten their password. Passwords are also reset when adding a new user so they can change it on first login, or in case of an account being locked out.
+
+For maximum security, passwords must include:**
+
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Special characters
+
+This ensures that passwords are strong and compliant with Active Directory policies.
+
+
+![vmware_9QdJWUnHvg](https://github.com/user-attachments/assets/52c3caa8-4b6b-47e8-a92c-5f41d2cc059b)
 
 
 
