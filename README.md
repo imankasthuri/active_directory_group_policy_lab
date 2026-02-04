@@ -59,6 +59,10 @@ I created a user account named kasthuri.mudiyanselage under the Domain Users org
 <img width="1277" height="800" alt="image" src="https://github.com/user-attachments/assets/1f3f1eee-7d64-4445-a730-2ee668a4ed0a" />
 
 
+I used a Windows 10 client to log in to the user account that I created earlier. The screenshot below shows a successful login using the Windows 10 client.
+
+
+![vmware_YLa9FGJHFz](https://github.com/user-attachments/assets/7f008dcc-8c44-44de-bc9b-4f3c1f2f4efe)
 
 
 
@@ -72,3 +76,5 @@ I created a user account named kasthuri.mudiyanselage under the Domain Users org
 
 
 
+
+ 
