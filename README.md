@@ -91,12 +91,10 @@ When a user is locked out due to multiple failed login attempts, an administrato
 
 ![vmware_oCxaUD7hex](https://github.com/user-attachments/assets/6bb13db1-0860-4e31-a15d-9b6a5e529a8e)
 
+After resetting the password, I tried to log in to the account using the new temporary password. Active Directory then prompted me to change the password again, because users are required to set their own password after an admin reset.
 
 
-
-
-
-
+![vmware_4rLWWxEexX](https://github.com/user-attachments/assets/c4b20167-42ed-4431-b187-8caf2b22dcf2)
 
 
 
