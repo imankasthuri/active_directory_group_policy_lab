@@ -44,8 +44,19 @@ To connect to the Domain Controller, I configured the IPv4 settings on the Windo
 
 <img width="1024" height="772" alt="image" src="https://github.com/user-attachments/assets/11486cff-887c-46ed-9326-c6c3fd951213" />
 
+The preferred DNS server was set to `192.168.0.10` since the Domain Controller functions as the DNS server. Client computers rely on DNS records stored on the Domain Controller to locate domain services during logon, domain joining, and Group Policy processing.
+
 
 ![vmware_NSIMkUgbQJ](https://github.com/user-attachments/assets/3e6674c4-f991-4a3f-87e8-90ea0366cf1f)
+
+
+## Creating User Accounts with AD
+
+I created a user account named kasthuri.mudiyanselage under the Domain Users organizational unit that I created.
+
+
+<img width="1277" height="800" alt="image" src="https://github.com/user-attachments/assets/1f3f1eee-7d64-4445-a730-2ee668a4ed0a" />
+
 
 
 
