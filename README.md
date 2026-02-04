@@ -41,10 +41,9 @@ To connect to the Domain Controller, I configured the IPv4 settings on the Windo
 - Default Gateway - `192.168.0.1`
 - Prefered DNS Server - `192.168.0.10`
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/804e1ea8-8236-42c1-83f8-fa5050f03967" />
+<img width="1026" height="770" alt="image" src="https://github.com/user-attachments/assets/c9c98a86-6ff3-436d-a8b2-29fff5bda762" />
 
-
-
+![vmware_NSIMkUgbQJ](https://github.com/user-attachments/assets/3e6674c4-f991-4a3f-87e8-90ea0366cf1f)
 
 
 
