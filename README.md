@@ -85,7 +85,7 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ![vmware_9QdJWUnHvg](https://github.com/user-attachments/assets/52c3caa8-4b6b-47e8-a92c-5f41d2cc059b)
 
-### Unclock Account 
+### Unlock Account 
 
 When a user is locked out due to multiple failed login attempts, an administrator can unlock the account without changing the existing password, allowing the user to log in again while keeping their current credentials.
 
