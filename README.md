@@ -49,9 +49,14 @@ To connect to the Domain Controller, I configured the IPv4 settings on the Windo
 
 ![vmware_5BniW937jp](https://github.com/user-attachments/assets/62306461-2bc4-471c-a04e-902305b59584)
 
+- I checked the Windows Server connectivity using the ping command, and it successfully connected to my Domain Controller.
+
+- This confirms that the client computer can communicate with the Domain Controller over the network, which is essential for domain login, Group Policy application, and other Active Directory operations. A successful ping indicates that the IP configuration, subnet mask, gateway, and basic network connectivity are all correctly set up.
 
 
-![vmware_NSIMkUgbQJ](https://github.com/user-attachments/assets/3e6674c4-f991-4a3f-87e8-90ea0366cf1f)
+![vmware_87vkpXJfJ2](https://github.com/user-attachments/assets/16a2802c-9d46-4b0a-8d6e-75ec9159a7b9)
+
+
 
 
 ## Creating User Accounts with AD
