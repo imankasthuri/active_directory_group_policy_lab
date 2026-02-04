@@ -18,7 +18,8 @@ We configure a static IP address on a server because servers are meant to be rel
 - Prefered DNS Server - `127.0.0.1`
 - Alternate DNS Server - `8.8.8.8`
 
-<img width="1022" height="774" alt="image" src="https://github.com/user-attachments/assets/7d927509-d817-4871-b9c3-608bda05bacf" />
+<img width="1282" height="804" alt="image" src="https://github.com/user-attachments/assets/bce77092-de04-4781-b832-4d5b0694aaee" />
+
 
 ## Adding the Active Directory Domain Services
 
@@ -41,9 +42,12 @@ To connect to the Domain Controller, I configured the IPv4 settings on the Windo
 - Default Gateway - `192.168.0.1`
 - Prefered DNS Server - `192.168.0.10`
 
-<img width="1026" height="770" alt="image" src="https://github.com/user-attachments/assets/c9c98a86-6ff3-436d-a8b2-29fff5bda762" />
+<img width="1024" height="772" alt="image" src="https://github.com/user-attachments/assets/11486cff-887c-46ed-9326-c6c3fd951213" />
+
 
 ![vmware_NSIMkUgbQJ](https://github.com/user-attachments/assets/3e6674c4-f991-4a3f-87e8-90ea0366cf1f)
+
+
 
 
 
