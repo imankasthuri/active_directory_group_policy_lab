@@ -10,7 +10,7 @@
 
 ### Configure a Static IP Address on a Server
 
-- We configure a static IP address on a server because servers are meant to be reliable and always reachable. Clients, users, and other systems need to know exactly where to find the server. If a server uses DHCP, its IP address could change after a reboot, which would break network connections.
+We configure a static IP address on a server because servers are meant to be reliable and always reachable. Clients, users, and other systems need to know exactly where to find the server. If a server uses DHCP, its IP address could change after a reboot, which would break network connections.
 
 - IP Address - `192.168.0.10`
 - Subnet Mask - `255.255.255.0`
@@ -45,7 +45,7 @@ To connect to the Domain Controller, I configured the IPv4 settings on the Windo
 <img width="1024" height="772" alt="image" src="https://github.com/user-attachments/assets/11486cff-887c-46ed-9326-c6c3fd951213" />
 
 
-The preferred DNS server was set to `192.168.0.10` since the Domain Controller functions as the DNS server. Client computers rely on DNS records stored on the Domain Controller to locate domain services during logon, domain joining, and Group Policy processing.
+- The preferred DNS server was set to `192.168.0.10` since the Domain Controller functions as the DNS server. Client computers rely on DNS records stored on the Domain Controller to locate domain services during logon, domain joining, and Group Policy processing.
 
 ![vmware_5BniW937jp](https://github.com/user-attachments/assets/62306461-2bc4-471c-a04e-902305b59584)
 
@@ -56,20 +56,20 @@ The preferred DNS server was set to `192.168.0.10` since the Domain Controller f
 
 ## Creating User Accounts with AD
 
-I created a user account named kasthuri.mudiyanselage under the Domain Users organizational unit that I created.
+- I created a user account named kasthuri.mudiyanselage under the Domain Users organizational unit that I created.
 
 
 <img width="1277" height="800" alt="image" src="https://github.com/user-attachments/assets/1f3f1eee-7d64-4445-a730-2ee668a4ed0a" />
 
 
-I used a Windows 10 client to log in to the user account that I created earlier. The screenshot below shows a successful login using the Windows 10 client.
+- I used a Windows 10 client to log in to the user account that I created earlier. The screenshot below shows a successful login using the Windows 10 client.
 
 
 ![vmware_YLa9FGJHFz](https://github.com/user-attachments/assets/7f008dcc-8c44-44de-bc9b-4f3c1f2f4efe)
 
 ## Searching for Objects in Active Directory
 
-In a real network, there can be hundreds or thousands of objects, making it very difficult to manually search through them. Therefore, searching is mainly used to efficiently manage users and computers, reset passwords, modify group memberships, and check object properties.
+- In a real network, there can be hundreds or thousands of objects, making it very difficult to manually search through them. Therefore, searching is mainly used to efficiently manage users and computers, reset passwords, modify group memberships, and check object properties.
 
 <img width="1282" height="799" alt="image" src="https://github.com/user-attachments/assets/b02b6b9e-feb8-480f-898d-e5e7d61c1f25" />
 
@@ -90,11 +90,11 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ### Unlock Account 
 
-When a user is locked out due to multiple failed login attempts, an administrator can unlock the account without changing the existing password, allowing the user to log in again while keeping their current credentials.
+- When a user is locked out due to multiple failed login attempts, an administrator can unlock the account without changing the existing password, allowing the user to log in again while keeping their current credentials.
 
 ![vmware_oCxaUD7hex](https://github.com/user-attachments/assets/6bb13db1-0860-4e31-a15d-9b6a5e529a8e)
 
-After resetting the password, I tried to log in to the account using the new temporary password. Active Directory then prompted me to change the password again, because users are required to set their own password after an admin reset.
+- After resetting the password, I tried to log in to the account using the new temporary password. Active Directory then prompted me to change the password again, because users are required to set their own password after an admin reset.
 
 
 ![vmware_4rLWWxEexX](https://github.com/user-attachments/assets/c4b20167-42ed-4431-b187-8caf2b22dcf2)
