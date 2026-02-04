@@ -64,6 +64,13 @@ I used a Windows 10 client to log in to the user account that I created earlier.
 
 ![vmware_YLa9FGJHFz](https://github.com/user-attachments/assets/7f008dcc-8c44-44de-bc9b-4f3c1f2f4efe)
 
+## Searching for Objects in Active Directory
+
+In a real network, there can be hundreds or thousands of objects, making it very difficult to manually search through them. Therefore, searching is mainly used to efficiently manage users and computers, reset passwords, modify group memberships, and check object properties.
+
+<img width="1282" height="799" alt="image" src="https://github.com/user-attachments/assets/b02b6b9e-feb8-480f-898d-e5e7d61c1f25" />
+
+
 
 
 
