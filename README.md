@@ -104,8 +104,7 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 - In the video below, I created a separate Organizational Unit (OU) for disabled accounts. I then disabled a user account and moved it into the Disabled OU. After that, I attempted to log in using that account to verify that access was successfully blocked.
 
-![Uploading vmware_Ymdy7sV8M2.gif…]()
-
+![vmware_Ymdy7sV8M2](https://github.com/user-attachments/assets/6298bb60-9864-4fe2-9f1f-c9a87a5e6136)
 
 
 
