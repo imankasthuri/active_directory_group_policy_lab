@@ -100,6 +100,13 @@ This ensures that passwords are strong and compliant with Active Directory polic
 ![vmware_4rLWWxEexX](https://github.com/user-attachments/assets/c4b20167-42ed-4431-b187-8caf2b22dcf2)
 
 
+## Disabling and Deleting User Accounts with Active Directory
+
+- In the video below, I created a separate Organizational Unit (OU) for disabled accounts. I then disabled a user account and moved it into the Disabled OU. After that, I attempted to log in using that account to verify that access was successfully blocked.
+
+![Uploading vmware_Ymdy7sV8M2.gif…]()
+
+
 
 
 
