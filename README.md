@@ -106,6 +106,14 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ![vmware_Ymdy7sV8M2](https://github.com/user-attachments/assets/6298bb60-9864-4fe2-9f1f-c9a87a5e6136)
 
+## Creating and Linking Group Policy Objects (GPOs)
+
+I created a Group Policy Object (GPO) and linked it to the relevant Organizational Units (OUs), specifically Domain Computers and Domain Users. I also added the Administrators group to the security filtering, ensuring the settings apply to them as well.
+
+![vmware_sOLe9yaQHy](https://github.com/user-attachments/assets/6aec8baf-da76-4bd8-9467-73f48464a721)
+
+
+
 
 
 
