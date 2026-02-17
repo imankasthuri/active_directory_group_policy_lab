@@ -132,6 +132,13 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ## Setting up an Logon Banner (Interactive Logon)
 
+- Created a new GPO named ‘Interactive Logon’ and configured the Interactive Logon title and message to display a custom security banner before user sign-in.
+
+<img width="1550" height="917" alt="image" src="https://github.com/user-attachments/assets/f9395109-7f68-47ac-90b5-bdb89360474e" />
+
+<img width="1545" height="919" alt="image" src="https://github.com/user-attachments/assets/24bc14a0-846c-4e93-9ba7-657d1222d480" />
+
+
 
 
 
