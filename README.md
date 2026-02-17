@@ -116,6 +116,19 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ![vmware_rMcL8eUAzq](https://github.com/user-attachments/assets/aeea5671-0952-4905-9acb-0a602b859371)
 
+## Deploying a Desktop Background to domain with a GPO (Group Policy Object)
+
+- I Created a folder on the C: drive to store desktop background images. Configured advanced sharing permissions on the folder to allow access for Authenticated Users, ensuring all domain users can read the files.
+
+<img width="1911" height="919" alt="image" src="https://github.com/user-attachments/assets/3d73ff99-e99e-44d4-92be-e47676747e46" />
+
+
+
+
+
+
+
+
 
 
 
