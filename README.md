@@ -140,7 +140,7 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ## Deploying Software with Group Policy
 
-Deployed 7-Zip (v17.01) to both the Administrator account and a standard user account using Group Policy to verify successful software installation.
+Deployed 7-Zip (v17.01) to the Administrator account using Group Policy to verify successful software installation.
 
 <img width="1550" height="876" alt="image" src="https://github.com/user-attachments/assets/3ebbb871-b6aa-4f98-9b8c-2c0f40c14c8f" />
 
