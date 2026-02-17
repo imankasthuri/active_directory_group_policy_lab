@@ -122,6 +122,9 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 <img width="1911" height="919" alt="image" src="https://github.com/user-attachments/assets/3d73ff99-e99e-44d4-92be-e47676747e46" />
 
+- I created a new GPO named ‘Desktop Background’ under my domain, edited it, and enabled the desktop wallpaper setting, ensuring that users had the necessary permissions to access the image.
+
+<img width="1910" height="917" alt="image" src="https://github.com/user-attachments/assets/6ae9a286-a59c-47cb-9684-54cef69bbfed" />
 
 
 
