@@ -126,11 +126,9 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 <img width="1910" height="917" alt="image" src="https://github.com/user-attachments/assets/6ae9a286-a59c-47cb-9684-54cef69bbfed" />
 
-After editing the GPO, I ran `gpupdate /force` in Command Prompt to immediately apply the changes. I then signed out of the Administrator account and logged in as the test user to verify that the Group Policy settings were applied correctly.
+- After editing the GPO, I ran `gpupdate /force` in Command Prompt to immediately apply the changes. I then signed out of the Administrator account and logged in as the test user to verify that the Group Policy settings were applied correctly.
 
-![Uploading vmware_FHIdgmR8nj.gif…]()
-
-
+![vmware_UFWd6jcxFy](https://github.com/user-attachments/assets/7d92af1c-fb01-4b6d-b838-77976e533fba)
 
 
 
