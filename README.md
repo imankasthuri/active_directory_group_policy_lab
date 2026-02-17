@@ -128,7 +128,12 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 - After editing the GPO, I ran `gpupdate /force` in Command Prompt to immediately apply the changes. I then signed out of the Administrator account and logged in as the test user to verify that the Group Policy settings were applied correctly.
 
-![vmware_UFWd6jcxFy](https://github.com/user-attachments/assets/7d92af1c-fb01-4b6d-b838-77976e533fba)
+![vmware_UFWd6jcxFy](https://github.com/user-attachments/assets/67fa4b5b-3352-42d9-bb03-c6a3591d6d0f)
+
+## Setting up an Logon Banner (Interactive Logon)
+
+
+
 
 
 
