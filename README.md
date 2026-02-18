@@ -150,7 +150,7 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 <img width="758" height="559" alt="image" src="https://github.com/user-attachments/assets/42a1e229-1185-421a-a6c8-8245cfd587f1" />
 
-I specified the share name as Profiles$ to create a hidden SMB share. The dollar sign `($)` ensures the share does not appear when browsing `\\ITFDC01\`, but it can still be accessed directly by typing the full path `\\ITFDC01\Profiles$` if the user has the appropriate permissions.
+- I specified the share name as Profiles$ to create a hidden SMB share. The dollar sign `($)` ensures the share does not appear when browsing `\\ITFDC01\`, but it can still be accessed directly by typing the full path `\\ITFDC01\Profiles$` if the user has the appropriate permissions.
 
 <img width="760" height="559" alt="image" src="https://github.com/user-attachments/assets/f90ba0a9-b2df-44ed-a4cb-b598a33218b1" />
 
