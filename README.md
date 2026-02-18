@@ -146,6 +146,9 @@ Deployed 7-Zip (v17.01) to the Administrator account using Group Policy to verif
 
 ## Configuring Roaming Profiles for User Accounts
 
+First I choosed the `SMB Share – Quick` option in Server Manager to create a network share, enabling users to access files stored on the server over the network.
+
+<img width="758" height="559" alt="image" src="https://github.com/user-attachments/assets/42a1e229-1185-421a-a6c8-8245cfd587f1" />
 
 
 
