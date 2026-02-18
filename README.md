@@ -144,36 +144,6 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 <img width="1550" height="876" alt="image" src="https://github.com/user-attachments/assets/3ebbb871-b6aa-4f98-9b8c-2c0f40c14c8f" />
 
-## Configuring Roaming Profiles for User Accounts
-
-- First I choosed the `SMB Share – Quick` option in Server Manager to create a network share, enabling users to access files stored on the server over the network.
-
-<img width="758" height="559" alt="image" src="https://github.com/user-attachments/assets/42a1e229-1185-421a-a6c8-8245cfd587f1" />
-
-- I specified the share name as Profiles$ to create a hidden SMB share. The dollar sign `($)` ensures the share does not appear when browsing `\\ITFDC01\`, but it can still be accessed directly by typing the full path `\\ITFDC01\Profiles$` if the user has the appropriate permissions.
-
-<img width="760" height="559" alt="image" src="https://github.com/user-attachments/assets/f90ba0a9-b2df-44ed-a4cb-b598a33218b1" />
-
-- Removed all users from the folder’s permissions to prevent unauthorized access, then granted Read & Execute permission to a test user to verify that roaming profiles function correctly.
-  
-<img width="766" height="519" alt="image" src="https://github.com/user-attachments/assets/fd66b9d4-c1c0-41d0-a9a2-f98289836d01" />
-
-- Created an Organizational Unit (OU) called ‘Domain Groups’. Inside this OU, I created a security group named ‘Roaming Profile Users’ with the group scope set to Global and the group type set to Security. This group is used to manage user access to roaming profile folders efficiently.
-
-<img width="1216" height="673" alt="image" src="https://github.com/user-attachments/assets/8b54efe4-5111-48d7-aa29-fa2a02756805" />
-
-- Added the user Kasthuri Mudiyanselage Iman Malsha Kasthuri to the ‘Roaming Profile Users’ group to grant access to roaming profile resources.
-
-<img width="1004" height="681" alt="image" src="https://github.com/user-attachments/assets/b308dcb3-2a4a-4a90-bf00-b70ddf6f3daa" />
-
-
-
-
-
-
-
-
-
 
 
 
