@@ -140,15 +140,20 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ## Deploying Software with Group Policy
 
-Deployed 7-Zip (v17.01) to the Administrator account using Group Policy to verify successful software installation.
+- Deployed 7-Zip (v17.01) to the Administrator account using Group Policy to verify successful software installation.
 
 <img width="1550" height="876" alt="image" src="https://github.com/user-attachments/assets/3ebbb871-b6aa-4f98-9b8c-2c0f40c14c8f" />
 
 ## Configuring Roaming Profiles for User Accounts
 
-First I choosed the `SMB Share – Quick` option in Server Manager to create a network share, enabling users to access files stored on the server over the network.
+- First I choosed the `SMB Share – Quick` option in Server Manager to create a network share, enabling users to access files stored on the server over the network.
 
 <img width="758" height="559" alt="image" src="https://github.com/user-attachments/assets/42a1e229-1185-421a-a6c8-8245cfd587f1" />
+
+I specified the share name as Profiles$ to create a hidden SMB share. The dollar sign `($)` ensures the share does not appear when browsing `\\ITFDC01\`, but it can still be accessed directly by typing the full path `\\ITFDC01\Profiles$` if the user has the appropriate permissions.
+
+<img width="760" height="559" alt="image" src="https://github.com/user-attachments/assets/f90ba0a9-b2df-44ed-a4cb-b598a33218b1" />
+
 
 
 
