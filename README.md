@@ -144,6 +144,10 @@ Deployed 7-Zip (v17.01) to the Administrator account using Group Policy to verif
 
 <img width="1550" height="876" alt="image" src="https://github.com/user-attachments/assets/3ebbb871-b6aa-4f98-9b8c-2c0f40c14c8f" />
 
+## Configuring Roaming Profiles for User Accounts
+
+
+
 
 
 
