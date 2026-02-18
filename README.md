@@ -154,6 +154,15 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 <img width="760" height="559" alt="image" src="https://github.com/user-attachments/assets/f90ba0a9-b2df-44ed-a4cb-b598a33218b1" />
 
+- I removed all users from the permission entries, ensuring that no user can access this folder unless explicitly granted permission.
+
+<img width="763" height="517" alt="image" src="https://github.com/user-attachments/assets/4dbcda1e-0e70-46b5-a0b5-efdc80acf126" />
+
+Created an Organizational Unit (OU) called ‘Domain Groups’. Inside this OU, I created a security group named ‘Roaming Profile Users’ with the group scope set to Global and the group type set to Security. This group is used to manage user access to roaming profile folders efficiently.
+
+<img width="1216" height="673" alt="image" src="https://github.com/user-attachments/assets/8b54efe4-5111-48d7-aa29-fa2a02756805" />
+
+
 
 
 
