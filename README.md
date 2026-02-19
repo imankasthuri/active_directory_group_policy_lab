@@ -146,13 +146,21 @@ This ensures that passwords are strong and compliant with Active Directory polic
 
 ## Configuring Domain Password and Account Lockout Policies with Group Policy
 
-- Configured password policies: the system remembers the last 24 passwords to prevent reuse, requires users to change their password every 90 days, allows users to change their password at any time if forgotten, and enforces a minimum password length of 14 characters for enhanced security
+- Configured password policies: the system remembers the last 24 passwords to prevent reuse, requires users to change their password every 90 days, allows users to change their password at any time if forgotten, and enforces a minimum password length of 14 characters for enhanced security.
 
 <img width="1374" height="728" alt="image" src="https://github.com/user-attachments/assets/7d404ab7-c910-4b1e-a9ed-ddfdabab4cbc" />
 
 - In the account lockout policy, a user is allowed 3 login attempts. If the user fails all 3, they must wait 15 minutes before trying again. With the ‘Reset account lockout counter’ setting, if the user fails 2 attempts and returns after the reset time (e.g., 10 minutes), the counter resets, and they have 3 full attempts again.
 
 <img width="1243" height="715" alt="image" src="https://github.com/user-attachments/assets/2053e411-b525-4d03-b643-042ba1485d1c" />
+
+I tested the account lockout policy by entering an incorrect password three times. After the third failed attempt, the account was successfully locked out, confirming that the policy is working correctly.
+
+<img width="1080" height="741" alt="image" src="https://github.com/user-attachments/assets/ba0a6958-d17e-428d-bb07-326ef1a59610" />
+
+After the account was locked, I used the Administrator account to unlock the user account in Active Directory. The user was then able to log in successfully without any issues.
+
+<img width="1018" height="782" alt="image" src="https://github.com/user-attachments/assets/b9f13326-82c6-4d48-af66-193144b1852b" />
 
 
 
