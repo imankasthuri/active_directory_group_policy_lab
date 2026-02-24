@@ -180,6 +180,19 @@ I added the user account Kasthuri Mudiyanselage Iman Malsha Kasthuri to the Roam
 
 <img width="844" height="552" alt="image" src="https://github.com/user-attachments/assets/72d83ec6-6bfe-46c3-9ddf-58adc9aec4ba" />
 
+- I configured advanced permissions for the profile folder, granting List Folder / Read Data and Create Folders / Append Data, and set them to apply to this folder only.
+
+<img width="1400" height="838" alt="image" src="https://github.com/user-attachments/assets/e9a542da-9b0b-4fc3-83e6-814e1644a97e" />
+
+<img width="765" height="520" alt="image" src="https://github.com/user-attachments/assets/ffbcb7c6-8515-417c-9400-e11e079cd123" />
+
+- I specified the profile path for the user Kasthuri Mudiyanselage Iman Malsha Kasthuri as \\ITFDC01\Profile$\%username%. This tells Windows where to store the user’s profile data on the network. The %username% variable automatically creates a separate folder for each user.
+
+<img width="920" height="799" alt="image" src="https://github.com/user-attachments/assets/b8f29e90-8ce6-4f1f-9e10-1c3fdca64cc5" />
+
+
+
+
 
 
 
