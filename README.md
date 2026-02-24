@@ -158,9 +158,33 @@ I tested the account lockout policy by entering an incorrect password three time
 
 <img width="1080" height="741" alt="image" src="https://github.com/user-attachments/assets/ba0a6958-d17e-428d-bb07-326ef1a59610" />
 
-After the account was locked, I used the Administrator account to unlock the user account in Active Directory. The user was then able to log in successfully without any issues.
+- After the account was locked, I used the Administrator account to unlock the user account in Active Directory. The user was then able to log in successfully without any issues.
 
 <img width="1018" height="782" alt="image" src="https://github.com/user-attachments/assets/b9f13326-82c6-4d48-af66-193144b1852b" />
+
+## Configuring Roaming Profiles for User Accounts
+
+- I created a shared folder named Profiles$ and added the dollar sign ($) at the end of the share name to configure it as a hidden share. This prevents it from appearing when users browse available network shares, while still allowing access to authorized users.
+
+<img width="1546" height="880" alt="image" src="https://github.com/user-attachments/assets/39076ba7-0383-4df0-a39a-c80017e67f34" />
+
+- I removed the Users group from the share permissions for security reasons. Allowing general user access could enable users to view other users’ files and documents, which would pose a security risk.
+
+<img width="764" height="519" alt="image" src="https://github.com/user-attachments/assets/9b689361-a4a9-47a2-99b2-a4fb592fd990" />
+
+- I created a group called Roaming Profile Users to simplify user management. Instead of configuring permissions for each user individually, I added them to a single group, allowing me to manage access centrally and more efficiently.
+  
+<img width="922" height="658" alt="image" src="https://github.com/user-attachments/assets/695f4823-6da9-4aef-b5db-4454a1602d10" />
+
+I added the user account Kasthuri Mudiyanselage Iman Malsha Kasthuri to the Roaming Profile Users group.
+
+<img width="844" height="552" alt="image" src="https://github.com/user-attachments/assets/72d83ec6-6bfe-46c3-9ddf-58adc9aec4ba" />
+
+
+
+
+
+
 
 
 
