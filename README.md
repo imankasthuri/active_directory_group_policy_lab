@@ -176,7 +176,7 @@ I tested the account lockout policy by entering an incorrect password three time
   
 <img width="922" height="658" alt="image" src="https://github.com/user-attachments/assets/695f4823-6da9-4aef-b5db-4454a1602d10" />
 
-I added the user account Kasthuri Mudiyanselage Iman Malsha Kasthuri to the Roaming Profile Users group.
+- I added the user account Kasthuri Mudiyanselage Iman Malsha Kasthuri to the Roaming Profile Users group.
 
 <img width="844" height="552" alt="image" src="https://github.com/user-attachments/assets/72d83ec6-6bfe-46c3-9ddf-58adc9aec4ba" />
 
@@ -186,9 +186,20 @@ I added the user account Kasthuri Mudiyanselage Iman Malsha Kasthuri to the Roam
 
 <img width="765" height="520" alt="image" src="https://github.com/user-attachments/assets/ffbcb7c6-8515-417c-9400-e11e079cd123" />
 
-- I specified the profile path for the user Kasthuri Mudiyanselage Iman Malsha Kasthuri as \\ITFDC01\Profile$\%username%. This tells Windows where to store the user’s profile data on the network. The %username% variable automatically creates a separate folder for each user.
+- I specified the profile path for the user Kasthuri Mudiyanselage Iman Malsha Kasthuri as `\\ITFDC01\Profile$\%username%`. This tells Windows where to store the user’s profile data on the network. The `%username%` variable automatically creates a separate folder for each user.
 
 <img width="920" height="799" alt="image" src="https://github.com/user-attachments/assets/b8f29e90-8ce6-4f1f-9e10-1c3fdca64cc5" />
+
+Problem:
+
+- When I initially troubleshooted the roaming profile, it did not appear in System Settings → User Profiles on my user account.
+
+Solution:
+
+- I discovered that changes to roaming profiles do not take effect until the current session is signed out. After signing out of the administrator account and logging back in, the changes were applied, and the roaming profile appeared correctly.
+
+<img width="1548" height="879" alt="image" src="https://github.com/user-attachments/assets/f0179d4f-0228-4f37-8527-d1842831adcb" />
+
 
 
 
