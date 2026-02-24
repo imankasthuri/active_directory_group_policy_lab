@@ -200,6 +200,10 @@ Solution:
 
 <img width="1548" height="879" alt="image" src="https://github.com/user-attachments/assets/f0179d4f-0228-4f37-8527-d1842831adcb" />
 
+- I tried to access the user profile using my administrator account, but it showed Access Denied, which indicates that my security configuration is working correctly. This ensures that each user’s data remains private and secure.
+
+<img width="1122" height="592" alt="image" src="https://github.com/user-attachments/assets/883d7eba-069a-4d5e-8d95-0a7ca87db7b1" />
+
 
 
 
