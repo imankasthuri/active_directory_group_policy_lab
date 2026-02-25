@@ -162,6 +162,34 @@ I tested the account lockout policy by entering an incorrect password three time
 
 <img width="1018" height="782" alt="image" src="https://github.com/user-attachments/assets/b9f13326-82c6-4d48-af66-193144b1852b" />
 
+## Deploying Fine Grained Password Policies (PSOs)
+
+- I created an Active Directory group named “7 Day Password Age” and added specific users to it. This group will be targeted by a Fine-Grained Password Policy, allowing these users to have a different password age than the default domain policy.
+
+<img width="951" height="657" alt="image" src="https://github.com/user-attachments/assets/55d5ba32-3293-4afa-b7b7-a2cd02e0e317" />
+
+- To implement a custom password policy for a particular group, I used ADSI Edit to create a 7-Day Password Settings Object (PSO). Within the Password Settings Container, I configured the password requirements and applied the PSO to the targeted users, overriding the default domain password policy while leaving other users unaffected.
+
+When creating an object, I used these values:
+
+- Common Name: 7DaysPasswordAge
+- Password Settings Precedence: 1 (If we create more than one PSO, Active Directory needs to know which PSO to apply; lower number = higher priority)
+- Password Reversible Encryption for user accounts: FALSE (The user’s password is stored as a hash and is not decryptable)
+- Password History Length for user accounts: 24
+- Password Complexity Status for user accounts: TRUE
+- Minimum Password Length for user accounts: 14
+- Minimum Password Age for user accounts: 00:00:00:00
+- Maximum Password Age for user accounts: 07:00:00:00
+- Lockout Threshold for user accounts: 3
+- Observation Window for lockout of user accounts: 00:00:15:00
+- Lockout Duration for locked-out user accounts: 00:00:15:0015:00
+
+<img width="1036" height="774" alt="image" src="https://github.com/user-attachments/assets/f32a3b23-0cbb-48fe-81bc-03e61272609f" />
+
+
+
+
+
 ## Configuring Roaming Profiles for User Accounts
 
 - I created a shared folder named Profiles$ and added the dollar sign ($) at the end of the share name to configure it as a hidden share. This prevents it from appearing when users browse available network shares, while still allowing access to authorized users.
