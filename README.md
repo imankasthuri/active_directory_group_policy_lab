@@ -204,6 +204,25 @@ Solution:
 
 <img width="1122" height="592" alt="image" src="https://github.com/user-attachments/assets/883d7eba-069a-4d5e-8d95-0a7ca87db7b1" />
 
+## How to automatically map network share drives with Group Policy
+
+- First, I created two groups, Group A and Group B, and added users to each group.
+
+<img width="908" height="631" alt="image" src="https://github.com/user-attachments/assets/305d1ba1-945c-43c2-812f-c58bf2cc950f" />
+
+- I created two network file shares, Share A and Share B, and configured permissions so that Group A has access to Share A, and Group B has access to Share B. This ensures that only the intended users in each group can access their respective shares.
+  
+<img width="855" height="579" alt="image" src="https://github.com/user-attachments/assets/750f3e60-6abd-41a2-9f4b-0b94acd4202d" />
+
+I confirmed that Group A users cannot access Share B, and Group B users cannot access Share A, ensuring that the file permissions are working as intended.
+
+<img width="1124" height="590" alt="image" src="https://github.com/user-attachments/assets/9b6fd6de-5fa4-4857-8081-6ef7550c8b7f" />
+
+
+
+
+
+
 
 
 
