@@ -214,9 +214,24 @@ Solution:
   
 <img width="855" height="579" alt="image" src="https://github.com/user-attachments/assets/750f3e60-6abd-41a2-9f4b-0b94acd4202d" />
 
-I confirmed that Group A users cannot access Share B, and Group B users cannot access Share A, ensuring that the file permissions are working as intended.
+- I confirmed that Group A users cannot access Share B, and Group B users cannot access Share A, ensuring that the file permissions are working as intended.
 
 <img width="1124" height="590" alt="image" src="https://github.com/user-attachments/assets/9b6fd6de-5fa4-4857-8081-6ef7550c8b7f" />
+
+- I configured a Group Policy Object (GPO) to map network drives for the two domain groups. Users in Group A will automatically have the Group A shared folder mapped, and users in Group B will automatically have the Group B shared folder mapped upon login. This ensures correct access and convenience for users.
+
+<img width="1547" height="881" alt="image" src="https://github.com/user-attachments/assets/556b8eca-d548-4cc3-91b1-90c8b7dec7bc" />
+
+- I assigned Read-only permissions to Authenticated Users. This allows all users in the domain to see and access the folder, but they cannot make any changes to the files.
+
+<img width="1546" height="880" alt="image" src="https://github.com/user-attachments/assets/42521af3-f080-4b6b-b15e-46fbfc886ec0" />
+
+I successfully mapped the shared folder \\ITFDC01\Group A to a network drive, so that members of Group A can access it automatically.
+
+<img width="1546" height="489" alt="image" src="https://github.com/user-attachments/assets/1f805345-a5fa-48f2-acc6-ea920230a353" />
+
+
+
 
 
 
