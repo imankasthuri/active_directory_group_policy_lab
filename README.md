@@ -186,6 +186,13 @@ When creating an object, I used these values:
 
 <img width="1036" height="774" alt="image" src="https://github.com/user-attachments/assets/f32a3b23-0cbb-48fe-81bc-03e61272609f" />
 
+- The Fine-Grained Password Policy (PSO) was applied to the “7 Day Password Age” group, ensuring that all users in this group follow the custom password settings instead of the default domain policy.
+
+<img width="1550" height="909" alt="image" src="https://github.com/user-attachments/assets/1eba855a-9802-4be6-ba76-2cd2bb697998" />
+
+
+
+
 
 
 
