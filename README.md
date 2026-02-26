@@ -197,6 +197,8 @@ When creating an object, I used these values:
 
 
 
+
+
 ## Configuring Roaming Profiles for User Accounts
 
 - I created a shared folder named Profiles$ and added the dollar sign ($) at the end of the share name to configure it as a hidden share. This prevents it from appearing when users browse available network shares, while still allowing access to authorized users.
