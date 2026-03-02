@@ -190,14 +190,18 @@ When creating an object, I used these values:
 
 <img width="1550" height="909" alt="image" src="https://github.com/user-attachments/assets/1eba855a-9802-4be6-ba76-2cd2bb697998" />
 
+- Successfully verified that the Fine-Grained Password Policy (7-day maximum password age) is applied by checking the password expiration date using PowerShell.
 
+```powershell
+Import-Module ActiveDirectory
 
-
-
-
-
-
-
+Get-ADUser -Filter {GivenName -like "Kaiser"} -Properties "msDS-UserPasswordExpiryTimeComputed" |
+Select-Object Name, @{
+    Name="ExpiryDate";
+    Expression={[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed")}
+}
+```
+<img width="997" height="289" alt="image" src="https://github.com/user-attachments/assets/44d4d616-48f8-4e6f-8bde-266296a17abe" />
 
 ## Configuring Roaming Profiles for User Accounts
 
