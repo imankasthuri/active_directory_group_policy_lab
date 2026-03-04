@@ -303,6 +303,33 @@ I successfully mapped the shared folder \\ITFDC01\Group A to a network drive, so
 
 <img width="1546" height="489" alt="image" src="https://github.com/user-attachments/assets/1f805345-a5fa-48f2-acc6-ea920230a353" />
 
+## Listing AD Users with Powershell
+
+```powershell
+# Import the active directory module
+Import-Module ActiveDirectory
+
+# List all AD users (Were a max limit of 100 users - this is important for larger domain)
+Get-ADUser -Filter * -ResultSetSize 100
+```
+<img width="1137" height="826" alt="image" src="https://github.com/user-attachments/assets/55bb9c5b-8c5f-49ed-bf8b-7501d49c7811" />
+
+The screenshot and PowerShell code above show how to list users from Active Directory. The Get-ADUser cmdlet is used with a filter to select all users, and the -ResultSetSize 100 parameter limits the output to 100 users. This is especially useful in larger domains to prevent flooding the console with too many results at once, making it easier to read and manage the output.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
