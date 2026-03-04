@@ -221,8 +221,6 @@ Select-Object Name, @{
 
 - In this GPO, I am configuring a registry setting that allows users to right-click any file and select “Open with Notepad.” Adding this option makes it faster and reduces the number of clicks required to open files. This is especially useful for administrators, who frequently open log files, scripts, and configuration files. Having “Open with Notepad” directly available in the context menu improves efficiency and convenience during troubleshooting and system management tasks.
 
-<img width="1232" height="698" alt="image" src="https://github.com/user-attachments/assets/86f0621c-1653-4162-9bc7-79a427267bbb" />
-
 - `HKCR` - Controls file types in windows
 - `*` - Means all files
 - `Shell` - The right click menue
@@ -230,6 +228,8 @@ Select-Object Name, @{
 - `command` - In the registry, command is the key that actually tells Windows what to do when you click a right-click menu item.
 - `notepad.exe` - the program to run
 - `%1` - the file you right-clicked
+
+<img width="1232" height="698" alt="image" src="https://github.com/user-attachments/assets/86f0621c-1653-4162-9bc7-79a427267bbb" />
                                                       
 - After applying this registry setting, I successfully verified that it was working by right-clicking a file and confirming that the “Open With Notepad” option appeared in the context menu and opened the selected file in Notepad.
 
@@ -305,6 +305,7 @@ I successfully mapped the shared folder \\ITFDC01\Group A to a network drive, so
 
 ## Listing AD Users with Powershell
 
+- The screenshot and PowerShell code above show how to list users from Active Directory. The Get-ADUser cmdlet is used with a filter to select all users, and the -ResultSetSize 100 parameter limits the output to 100 users. This is especially useful in larger domains to prevent flooding the console with too many results at once, making it easier to read and manage the output.
 ```powershell
 # Import the active directory module
 Import-Module ActiveDirectory
@@ -314,7 +315,7 @@ Get-ADUser -Filter * -ResultSetSize 100
 ```
 <img width="1135" height="823" alt="image" src="https://github.com/user-attachments/assets/098ec0e7-3587-4d9b-a9cc-fcf61f83ad2a" />
 
-- The screenshot and PowerShell code above show how to list users from Active Directory. The Get-ADUser cmdlet is used with a filter to select all users, and the -ResultSetSize 100 parameter limits the output to 100 users. This is especially useful in larger domains to prevent flooding the console with too many results at once, making it easier to read and manage the output.
+- This PowerShell script imports the Active Directory module and lists up to 100 AD users. It retrieves key properties including Name, UserPrincipalName, Enabled status, and LastLogon. Limiting the result set to 100 users prevents overwhelming the console in larger domains, making the output easier to review and manage.
 
 ```powershell
 # Import the active directory module
@@ -325,7 +326,7 @@ Get-ADUser -Filter * -ResultSetSize 100 -Properties lastLogon | Select-Object Na
 ```
 <img width="996" height="579" alt="image" src="https://github.com/user-attachments/assets/a10ea3d6-b8c7-421f-819e-5546804b5412" />
 
-- This PowerShell script imports the Active Directory module and lists up to 100 AD users. It retrieves key properties including Name, UserPrincipalName, Enabled status, and LastLogon. Limiting the result set to 100 users prevents overwhelming the console in larger domains, making the output easier to review and manage.
+
 
 
 
