@@ -312,10 +312,20 @@ Import-Module ActiveDirectory
 # List all AD users (Were a max limit of 100 users - this is important for larger domain)
 Get-ADUser -Filter * -ResultSetSize 100
 ```
-<img width="1137" height="826" alt="image" src="https://github.com/user-attachments/assets/55bb9c5b-8c5f-49ed-bf8b-7501d49c7811" />
+<img width="1135" height="823" alt="image" src="https://github.com/user-attachments/assets/098ec0e7-3587-4d9b-a9cc-fcf61f83ad2a" />
 
-The screenshot and PowerShell code above show how to list users from Active Directory. The Get-ADUser cmdlet is used with a filter to select all users, and the -ResultSetSize 100 parameter limits the output to 100 users. This is especially useful in larger domains to prevent flooding the console with too many results at once, making it easier to read and manage the output.
+- The screenshot and PowerShell code above show how to list users from Active Directory. The Get-ADUser cmdlet is used with a filter to select all users, and the -ResultSetSize 100 parameter limits the output to 100 users. This is especially useful in larger domains to prevent flooding the console with too many results at once, making it easier to read and manage the output.
 
+```powershell
+# Import the active directory module
+Import-Module ActiveDirectory
+
+# List all AD users (Were a max limit of 100 users - this is important for larger domain)
+Get-ADUser -Filter * -ResultSetSize 100 -Properties lastLogon | Select-Object Name, UserPrincipalName, Enabled, lastLogon
+```
+<img width="996" height="579" alt="image" src="https://github.com/user-attachments/assets/a10ea3d6-b8c7-421f-819e-5546804b5412" />
+
+- This PowerShell script imports the Active Directory module and lists up to 100 AD users. It retrieves key properties including Name, UserPrincipalName, Enabled status, and LastLogon. Limiting the result set to 100 users prevents overwhelming the console in larger domains, making the output easier to review and manage.
 
 
 
