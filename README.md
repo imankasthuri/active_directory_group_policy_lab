@@ -217,6 +217,23 @@ Select-Object Name, @{
 
 <img width="1499" height="862" alt="Screenshot 2026-03-03 190939" src="https://github.com/user-attachments/assets/20abc717-009e-4cd7-87f5-1f478419f1b8" />
 
+## Configuring Windows Registry Settings with Group Policy (GPOs)
+
+- In this GPO, I am configuring a registry setting that allows users to right-click any file and select “Open with Notepad.” Adding this option makes it faster and reduces the number of clicks required to open files. This is especially useful for administrators, who frequently open log files, scripts, and configuration files. Having “Open with Notepad” directly available in the context menu improves efficiency and convenience during troubleshooting and system management tasks.
+
+<img width="1232" height="698" alt="image" src="https://github.com/user-attachments/assets/86f0621c-1653-4162-9bc7-79a427267bbb" />
+
+- `HKCR` - Controls file types in windows
+- `*` - Means all files
+- `Shell` - The right click menue
+- `Open With Notepad` - The menu item name you see when you right-click.
+- `command` - In the registry, command is the key that actually tells Windows what to do when you click a right-click menu item.
+- `notepad.exe` - the program to run
+- `%1` - the file you right-clicked
+                                                      
+- After applying this registry setting, I successfully verified that it was working by right-clicking a file and confirming that the “Open With Notepad” option appeared in the context menu and opened the selected file in Notepad.
+
+<img width="456" height="491" alt="image" src="https://github.com/user-attachments/assets/c706cf75-c83d-4a51-b467-ced7c27f2a1e" />
 
 ## Configuring Roaming Profiles for User Accounts
 
