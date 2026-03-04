@@ -203,6 +203,21 @@ Select-Object Name, @{
 ```
 <img width="997" height="289" alt="image" src="https://github.com/user-attachments/assets/44d4d616-48f8-4e6f-8bde-266296a17abe" />
 
+## Configuring Windows Firewall with Group Policy
+
+- First, I created a new Group Policy Object (GPO) called “Firewall Test 1.” Within this GPO, I created a new Inbound Firewall Rule and selected the Port option.
+
+<img width="1225" height="765" alt="Screenshot 2026-03-01 220424" src="https://github.com/user-attachments/assets/87ee8e19-35f4-4bbb-a9c2-4f8642ad3882" />
+
+- In my lab, I troubleshooted TCP inbound traffic on port 1234. For this exercise, port 1234 was chosen purely as an example to demonstrate how to create and test Windows Defender Firewall inbound rules.
+
+<img width="1198" height="746" alt="Screenshot 2026-03-01 220924" src="https://github.com/user-attachments/assets/a123ce68-9989-4d85-abe5-dd9ef9fdbf98" />
+
+- After configuring the firewall rule in the “Test 1234” Group Policy Object (GPO) and linking it to the appropriate Organizational Unit (OU), I verified that the policy was successfully applied to the target computer by opening Command Prompt and running the gpresult /r command, then confirming that the “Test 1234” GPO appeared under the Applied Group Policy Objects section in Computer Settings, which indicated that the firewall rule was successfully applied.
+
+<img width="1499" height="862" alt="Screenshot 2026-03-03 190939" src="https://github.com/user-attachments/assets/20abc717-009e-4cd7-87f5-1f478419f1b8" />
+
+
 ## Configuring Roaming Profiles for User Accounts
 
 - I created a shared folder named Profiles$ and added the dollar sign ($) at the end of the share name to configure it as a hidden share. This prevents it from appearing when users browse available network shares, while still allowing access to authorized users.
