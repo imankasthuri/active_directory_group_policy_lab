@@ -233,7 +233,7 @@ Select-Object Name, @{
                                                       
 - After applying this registry setting, I successfully verified that it was working by right-clicking a file and confirming that the “Open With Notepad” option appeared in the context menu and opened the selected file in Notepad.
 
-<img width="456" height="491" alt="image" src="https://github.com/user-attachments/assets/c706cf75-c83d-4a51-b467-ced7c27f2a1e" />
+<img width="435" height="451" alt="image" src="https://github.com/user-attachments/assets/9ec41405-77cb-4914-ae40-e73437fcadce" />
 
 ## Configuring Roaming Profiles for User Accounts
 
